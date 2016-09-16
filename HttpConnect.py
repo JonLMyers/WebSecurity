@@ -1,5 +1,6 @@
 #!/usr/bin/python
 import socket
+import urllib
 
 def Connect(host, port):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -30,6 +31,7 @@ def SendDataA3(s, token, solution):
 
     s.send(request + requestHost + contentType + contentLen + content) 
 
+#16^56 < 256^16 < 256^32 = total char combinations  somewhere between AES128 and AES256
 def RecieveAndPrintA1(s):
     full = ""
     token = ""
@@ -70,6 +72,7 @@ def RecieveAndPrintA2(s2, token):
     SendDataA3(s, token, solution) 
     while True:
         response2 = s.recv(1024)
+        print response2
         if response2 == '':
             break
         else:
@@ -85,8 +88,24 @@ def CreateAccount(s, token, request, requestHost):
     contentLen ="Content-Length: {}\n\n".format(len(content)-2)
     contentType = "Content-Type: application/x-www-form-urlencoded\n"
     userAgent = "User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; AS; rv:11.0) like Gecko\n"
+    accept = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n"
+    acceptLan = "Accept-Language: en-US,en;q=0.5\n"
+    acceptEnc = "Accept-Encoding: gzip, deflate\n"
     print request + userAgent + requestHost + contentType + contentLen + content
-    s.send(request + userAgent + requestHost + contentType + contentLen + content)
+    s.send(request + userAgent + requestHost + accept + acceptLan + acceptEnc + contentType + contentLen + content)
+
+def TestLogin(s, token, request, requestHost, password):
+    content = "token=" + token + "&username=hostmaster" + "&password=" + urllib.quote_plus(password) + "\n\n"
+    contentLen ="Content-Length: {}\n\n".format(len(content)-2)
+    contentType = "Content-Type: application/x-www-form-urlencoded\n"
+    userAgent = "User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; AS; rv:11.0) like Gecko\n"
+    accept = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n"
+    acceptLan = "Accept-Language: en-US,en;q=0.5\n"
+    acceptEnc = "Accept-Encoding: gzip, deflate\n"
+
+
+    print request + userAgent + requestHost + accept + acceptLan + acceptEnc + contentType + contentLen + content
+    s.send(request + userAgent + requestHost + accept + acceptLan + acceptEnc + contentType + contentLen + content)
 
 def PerformOperation(captcha):
     operator = ''
@@ -124,12 +143,44 @@ def PerformOperation(captcha):
         print "You broke something.  Fix it."
     
     return captcha
-    
+
+def BasicConnect():
+    host = '54.209.150.110'
+    port = 80
+    request = "POST / HTTP/1.1\n"
+    requestHost = "Host: 54.209.150.110\n\n"
+
+    s = Connect(host, port)
+    s.send(request + requestHost)
+    flag0 = RecieveAndPrintA1(s)
+    print flag0
+    s.close()
+
+def RecieveAndPrintPass(s):
+    full = ""
+    token = ""
+
+    while True:
+        response = s.recv(1024)
+        print response
+        if response == '':
+            break
+        else:
+            full = response
+        
+    full = full.split()
+    token = full[len(full)-1]
+    token = token[:]
+    return token
+
 #------------------------------------------------------------------------------#
 host = '54.209.150.110'
 port = 80
 request = "POST /getSecure HTTP/1.1\n"
 requestHost = "Host: 54.209.150.110\n"
+
+BasicConnect()
+print "$----------> Start token and flag collection."
 
 s = Connect(host, port)
 SendDataA1(s, request, requestHost)
@@ -154,8 +205,16 @@ s2.close()
 request = "POST /createAccount HTTP/1.1\n"
 s = Connect(host, port)
 CreateAccount(s, token, request, requestHost)
-password = RecieveAndPrintA1(s)
+password = RecieveAndPrintPass(s)
 s.close()
 print password
+
+request = "POST /login HTTP/1.1\n"
+s = Connect(host, port)
+TestLogin(s, token, request, requestHost, password)
+success = RecieveAndPrintA1(s)
+s.close()
+print success
+
 
 
