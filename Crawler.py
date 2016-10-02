@@ -1,40 +1,17 @@
 #!/usr/bin/python
-import urllib
+import urllib2
 import socket
-import BeautifulSoup
 import re
 import os
 import threading
-
-class Spider:
-    def __init__(self, s):
-        self.socket = s
-        self.failed = []
-        self.crawled = []
-
-    def Union(self, p, q):
-        for e in q:
-            if e not in q:
-                p.appen(e)
-    
-    def extractLinks(self, page):
-        dom = parse(page).getroot()
-        dom.make_links_absolute()
-        links = dom.csselect('a')
-        return [link.get('href') for link in links if link.get('href')]
-    
-    def Crawl(self, limit=float('inf')):
-        toCrawl = [self.socket]
-        while toCrawl and len(self.crawled) < limit:
-            page = toCrawl.pop()
-            if page not in self.crawled:
-                try:
-                    self.Union(toCrawl, self.extractLinks(page))
-                except Exception as e:
-                    print e
-                    self.failed.append([page, e])
-                    pass
-        return self.crawled
+import sys
+import argparse
+import mechanize
+import urlparse
+import urllib
+import ssl
+from lxml.html import parse
+from BeautifulSoup import BeautifulSoup, SoupStrainer
 
 def Connect(url):
     port = 80
@@ -116,23 +93,81 @@ def ScrapeCsecImages(s):
         t.start()
         i += 1
 
+
+def MakeRequest(s, url, host):
+    request = "GET " + url + " HTTP/1.1\n"
+    requestHost = "Host: " + host + "\r\n\r\n"    
+    fullResponse = ''
+    s.send(request + requestHost)
+    while True:
+        response = s.recv(2048)
+        if response == '':
+            break 
+        fullResponse = fullResponse + response
+
+    return fullResponse
+
+def MakeRequestSSL(s, url, host):
+    request = "GET " + url + " HTTP/1.1\n"
+    requestHost = "Host: " + host + "\r\n\r\n"    
+    fullResponse = ''
+    ws = ssl.wrap_socket(s, ssl_version=ssl.PROTOCOL_TLSv1, ciphers="ADH-AES256-SHA")
+    ws.send(request + requestHost)
+    while True:
+        response = ws.recv(2048)
+        if response == '':
+            break 
+        fullResponse = fullResponse + response
+
+    return fullResponse
+
 def FullWebCrawl():
+    maxPages = 4
+    findEmails = 1
+    emails = []
+    urlQueue = []
+    crawledUrls = []
+    print 'Enter depth: '
+    #maxPages = int(input("$> "))
     print 'Enter host.  Example: "www.rit.edu"'
-    url = str(input("$> "))
-    requestHost = "Host: " + url + "\n\n"
-
+    #host = str(input("$> "))
     print 'Enter Url to crawl with trailing "/". Example: "http://www.rit.edu/"'
-    fullUrl = str(input("$> "))
-    request = "GET " + fullUrl + " HTTP/1.1\n"
+    #url = str(input("$> "))
+    urlQueue.append("http://www.rit.edu/")
 
-    s = Connect(url)
+    url = "http://www.rit.edu"
+    host = "www.rit.edu"
+    
+    while len(urlQueue) > 0 and maxPages > 0:
+        s = Connect("www.rit.edu")
+        page = MakeRequest(s, urlQueue[0], host)
+        soup = BeautifulSoup(page)
+        links = soup.findAll('a')
+        newEmails = set(re.findall(r"[a-z0-9\.\-+_]+@[a-z0-9\.\-+_]+\.[a-z]+", page, re.I))
+        emails.append(newEmails)
+        crawledUrls.append(urlQueue[0])
+        urlQueue.pop(0)
+        print "-------------------------------------------------------------"
+
+        for tag in links:
+            link = tag.get('href', None)
+            if link is not None and link not in crawledUrls and url in link:
+                
+                crawledUrls.append(link)
+                urlQueue.append(link)
+                print link
+        
+        maxPages = maxPages - 1
+        s.close()
+
+    print emails
 
 def main():
     s = Connect('www.rit.edu')
     s2 = Connect('www.rit.edu')
 
-    ScrapeCsecWeb(s)
-    ScrapeCsecImages(s2)
+    #ScrapeCsecWeb(s)
+    #ScrapeCsecImages(s2)
     FullWebCrawl()
     
 

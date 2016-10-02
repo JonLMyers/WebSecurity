@@ -1,9 +1,406 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>301 Moved Permanently</title>
-</head><body>
-<h1>Moved Permanently</h1>
-<p>The document has moved <a href="http://www.rit.edu/utl/errorDocuments/400.php">here</a>.</p>
-<hr>
-<address>Apache Server at www.rit.edu Port 0</address>
-</body></html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/files/favicon.ico" type="image/vnd.microsoft.icon" />
+
+  <title>
+  
+  Page not found | Computing Security | Rochester Institute of Technology (RIT)  
+  
+  
+  </title>  
+  <style type="text/css" media="all">
+@import url("http://www.rit.edu/gccis/computingsecurity/modules/system/system.base.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/modules/system/system.menus.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/modules/system/system.messages.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/modules/system/system.theme.css?ocbcfa");
+</style>
+<style type="text/css" media="screen">
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/libraries/shadowbox/shadowbox.css?ocbcfa");
+</style>
+<style type="text/css" media="print">
+<!--/*--><![CDATA[/*><!--*/
+#sb-container{position:relative;}#sb-overlay{display:none;}#sb-wrapper{position:relative;top:0;left:0;}#sb-loading{display:none;}
+
+/*]]>*/-->
+</style>
+<style type="text/css" media="all">
+@import url("http://www.rit.edu/gccis/computingsecurity/modules/comment/comment.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/modules/date/date_api/date.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/modules/field/theme/field.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/modules/node/node.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/modules/search/search.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/modules/user/user.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/modules/extlink/extlink.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/modules/views/css/views.css?ocbcfa");
+</style>
+<style type="text/css" media="all">
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/modules/ctools/css/ctools.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/modules/rit_user_utils/rit_user_utils.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/modules/custom_search/custom_search.css?ocbcfa");
+</style>
+<style type="text/css" media="all">
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/alpha/css/alpha-reset.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/alpha/css/alpha-mobile.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/alpha/css/alpha-alpha.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/omega/css/omega-text.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/omega/css/omega-branding.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/omega/css/omega-menu.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/omega/css/omega-forms.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/omega/css/omega-visuals.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/files/fontyourface/wysiwyg.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/files/fontyourface/font.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/files/fontyourface/local_fonts/Univers-normal-normal/stylesheet.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/css/global.css?ocbcfa");
+</style>
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<style type="text/css" media="all">
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/css/gccis-alpha-default.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/css/gccis-alpha-default-normal.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?ocbcfa");
+</style>
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (max-device-width: 480px)">
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/css/gccis-alpha-default.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/css/gccis-alpha-default-narrow.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-12.css?ocbcfa");
+</style>
+<!--<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)">
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/css/gccis-alpha-default.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/css/gccis-alpha-default-normal.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?ocbcfa");
+</style>
+<!--<![endif]-->
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/gccis/computingsecurity/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/misc/drupal.js?ocbcfa"></script>
+<script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/sites/all/libraries/shadowbox/shadowbox.js?v=3.0.3"></script>
+<script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/sites/all/modules/shadowbox/shadowbox_auto.js?v=3.0.3"></script>
+<script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/sites/all/modules/delta/delta_ui.js?ocbcfa"></script>
+<script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/sites/all/modules/extlink/extlink.js?ocbcfa"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/gccis/computingsecurity/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/gccis/computingsecurity/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/gccis/computingsecurity/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        <h1>Sorry, you need to enable JavaScript to visit this website.</h1>
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/sites/all/modules/custom_search/js/custom_search.js?ocbcfa"></script>
+<script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/omega/js/omega-mediaqueries.js?ocbcfa"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+          Shadowbox.path = "/gccis/computingsecurity/sites/all/libraries/shadowbox/";
+        
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/js/gccis-responsive.js?ocbcfa"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/gccis\/computingsecurity\/","pathPrefix":"","ajaxPageState":{"theme":"gccis","theme_token":"yh8LhngjAEjvO4PyPt-Z697nRpv_av_UH-lvts5QWuE","js":{"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/shadowbox\/shadowbox.js":1,"sites\/all\/modules\/shadowbox\/shadowbox_auto.js":1,"sites\/all\/modules\/delta\/delta_ui.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"1":1,"sites\/all\/modules\/custom_search\/js\/custom_search.js":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1,"2":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/js\/gccis-responsive.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/shadowbox\/shadowbox.css":1,"0":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/rit_user_utils\/rit_user_utils.css":1,"sites\/all\/modules\/custom_search\/custom_search.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/rit.edu.gccis.computingsecurity\/files\/fontyourface\/wysiwyg.css":1,"sites\/rit.edu.gccis.computingsecurity\/files\/fontyourface\/font.css":1,"public:\/\/fontyourface\/local_fonts\/Univers-normal-normal\/stylesheet.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/css\/global.css":1,"ie::normal::sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/css\/gccis-alpha-default.css":1,"ie::normal::sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/css\/gccis-alpha-default-normal.css":1,"ie::normal::sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"narrow::sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/css\/gccis-alpha-default.css":1,"narrow::sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/css\/gccis-alpha-default-narrow.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/css\/gccis-alpha-default.css":1,"normal::sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/css\/gccis-alpha-default-normal.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"shadowbox":{"animate":true,"animateFade":true,"animSequence":"wh","auto_enable_all_images":0,"auto_gallery":0,"autoplayMovies":true,"continuous":false,"counterLimit":10,"counterType":"default","displayCounter":true,"displayNav":true,"enableKeys":true,"fadeDuration":0.35,"handleOversize":"resize","handleUnsupported":"link","initialHeight":160,"initialWidth":320,"language":"en","modal":false,"overlayColor":"#000","overlayOpacity":0.8,"resizeDuration":0.55,"showMovieControls":true,"slideshowDelay":0,"viewportPadding":20,"useSizzle":false},"custom_search":{"form_target":"_self","solr":0},"urlIsAjaxTrusted":{"\/http:\/\/www.rit.edu\/gccis\/computingsecurity\/sites\/rit.edu.gccis.computingsecurity\/files\/\/Kyle":true},"extlink":{"extTarget":0,"extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal"],"queries":{"narrow":"all and (max-device-width: 480px)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>   
+  
+  <script type="text/javascript">
+  //jQuery.noConflict();
+  // Code that uses other library's $ can follow here.
+  
+  jQuery(document).ready(function() {
+  //Back to top Code to show button when scrolling reaches 
+	//	a certain point
+	jQuery(window).scroll(function(){
+		var pos = window.pageYOffset;
+		scoller = jQuery(".backtotop")
+		if(pos >= 400) {
+			if(!scoller.hasClass("shown")) {
+				scoller.addClass("shown")
+				//scoller.animate({"height":"31px","top":"-31px"}, 500)
+				scoller.animate({"height":"28px"}, 500)
+			}
+		} else {
+			if(scoller.hasClass("shown")) {
+				scoller.removeClass("shown")
+				scoller.animate({"height":"0px"}, 500)
+				//scoller.animate({"height":"0px","top":"0px"}, 500)
+			}
+		}
+		
+		
+		
+		 
+  
+  		if (screen.width <= 480) {
+	  		jQuery(document).ready(function() {
+	  		  jQuery('#block-menu-block-1').click(function() {
+	  		    //alert('menu toggle');
+			    jQuery('.parent-mlid-0 > ul.menu').toggle();			  
+			  })
+			});
+		
+		}
+	});
+	
+	jQuery(".backtotop").click(function(){
+		if(jQuery('html, body').offset() != null){
+			jQuery('html, body').animate({scrollTop: 0},'slow');
+			jQuery(".backtotop").animate({"height":"0px"}, 500);
+		}
+	});
+	
+	
+	jQuery('.expand_info').click(function() {
+                //alert(jQuery(this).parent().next().html());
+		jQuery(this).parent().next().slideToggle('slow');
+                if(jQuery(this).html() == "Read More..."){
+                  jQuery(this).html('Read Less')
+                }else{ jQuery(this).html('Read More...'); }
+
+
+		return false;
+	}).next().hide();
+
+
+	
+	
+	
+	
+  });
+  
+  </script>
+</head>
+<body class="html not-front not-logged-in page-sites page-sites-ritedugcciscomputingsecurity page-sites-ritedugcciscomputingsecurity-files page-sites-ritedugcciscomputingsecurity-files-kyle context-sites">
+  <div class="mobileDetect"></div>
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  
+      <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">
+    <div class="grid-12 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+    <div class="block block-block block-7 block-block-7 odd block-without-title" id="block-block-7">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <!--RIT Header-->
+<div class="identity-bar">
+  <div id="menu-button"></div>
+  <div id="search-button"></div>
+	<div class="center clearfix">
+    	<div class="rit-logo">
+            	<a href="http://rit.edu" target="_blank"><img src="/gccis/igm/sites/rit.edu.gccis.igm/files//rit_header_logo.png" alt="Rochester Institute of Technology" /></a>
+	    </div>
+        <div class="identity-right">
+        	
+     <form class="search-form" role="search" action="/http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/files//Kyle" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <input title="Enter the terms you wish to search for." class="custom-search-box form-text" placeholder="Search this site" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-Edwm70ya_Gy-QrwmjIPD5ftQrc-I1smS--exRSHOfck" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>
+      <script type="text/javascript">
+
+          jQuery(document).ready(function() {
+		      jQuery('#search-block-form .custom-search-box').addClass('faded'); 
+		      jQuery('#search-block-form .custom-search-box').blur(function (){ if ($(this).value==""){ $(this).value = $(this).defaultValue; } $(this).removeClass('focused');$(this).addClass('faded'); } ); 
+		      jQuery('#search-block-form .custom-search-box').focus(function(){ if ($(this).defaultValue==$(this).value) $(this).value = ""; $(this).removeClass('faded');$(this).addClass('focused'); });  
+	 
+          });
+
+		function focusSearch(formfield){ if (formfield.defaultValue==formfield.value) formfield.value = ""; formfield.className = "focused"; }
+		function blurSearch(formfield){ if (formfield.value==""){ formfield.value = formfield.defaultValue; formfield.className = "faded";} }
+      </script>
+            </div>
+        </div>
+        
+	</div>
+</div>
+<!--End RIT Header-->    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <div class="block block-block block-8 block-block-8 odd block-without-title" id="block-block-8">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div><a href="/gccis/computingsecurity/"><img alt="" src="/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/files/images/CSEC.png" style="width: 300px; height: 115px;" /></a></div>
+    </div>
+  </div>
+</div><div class="block block-menu-block block-1 block-menu-block-1 even block-without-title" id="block-menu-block-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first expanded menu-mlid-230"><a href="/gccis/computingsecurity/about/why-computing-security">About</a><ul class="menu"><li class="first leaf menu-mlid-1707"><a href="/gccis/computingsecurity/about/why-computing-security">Why Computing Security?</a></li>
+<li class="leaf menu-mlid-1706"><a href="/gccis/computingsecurity/about/message-chair">Message from the Chair</a></li>
+<li class="leaf menu-mlid-2669"><a href="/gccis/computingsecurity/computing-security-student-anbassadors">Student Ambassadors</a></li>
+<li class="leaf menu-mlid-1686"><a href="/gccis/computingsecurity/about/accreditations-designations">Accreditations &amp; Designations</a></li>
+<li class="leaf menu-mlid-1279"><a href="/gccis/computingsecurity/about/admissions">Admissions / Financial Aid</a></li>
+<li class="leaf menu-mlid-1527"><a href="/gccis/computingsecurity/about/directions">Directions</a></li>
+<li class="last leaf menu-mlid-4220"><a href="/gccis/computingsecurity/about/contact-us">Contact Us</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1278"><a href="/gccis/computingsecurity/advising/overview">Academic Advising</a><ul class="menu"><li class="first leaf menu-mlid-1521"><a href="/gccis/computingsecurity/advising/overview" title="">Overview</a></li>
+<li class="leaf menu-mlid-1691"><a href="/gccis/computingsecurity/advising/syllabus">Advising Syllabus</a></li>
+<li class="leaf menu-mlid-1692"><a href="/gccis/computingsecurity/advising/undergraduate">Undergraduate Advising</a></li>
+<li class="leaf menu-mlid-1693"><a href="/gccis/computingsecurity/advising/undergraduate-faqs">Undergraduate FAQs</a></li>
+<li class="leaf menu-mlid-1694"><a href="/gccis/computingsecurity/advising/undergraduate-transfer">Undergraduate Transfer &amp; AP credit</a></li>
+<li class="leaf menu-mlid-1695"><a href="/gccis/computingsecurity/advising/graduate">Graduate Advising</a></li>
+<li class="leaf menu-mlid-1696"><a href="/gccis/computingsecurity/advising/graduate-faqs">Graduate FAQs</a></li>
+<li class="leaf menu-mlid-1699"><a href="/gccis/computingsecurity/advising/resources">Resources</a></li>
+<li class="last leaf menu-mlid-1714"><a href="/gccis/computingsecurity/advising/forms">Forms</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1272"><a href="/gccis/computingsecurity/academics/bs/overview" title="">BS Computing Security</a><ul class="menu"><li class="first leaf menu-mlid-1710"><a href="/gccis/computingsecurity/academics/bs/overview">Overview</a></li>
+<li class="leaf menu-mlid-2664"><a href="https://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/files/images/Flowchart-2016-17.gif" title="">CSEC Semester Course Flowchart</a></li>
+<li class="leaf menu-mlid-2301"><a href="https://www.rit.edu/programs/computing-security-bs" title="">Course Sequence</a></li>
+<li class="leaf menu-mlid-1690"><a href="/gccis/computingsecurity/academics/bs/course-sequence" title="">Course Descriptions</a></li>
+<li class="leaf menu-mlid-1731"><a href="/gccis/computingsecurity/academics/bs/advance-computing-security-clusters" title="Advance Computing Security Clusters">Advance Computing Security Clusters</a></li>
+<li class="leaf menu-mlid-1720"><a href="/gccis/computingsecurity/academics/minors-concentrations/immersions">Immersions</a></li>
+<li class="last expanded menu-mlid-2193"><a href="/gccis/computingsecurity/minor-computing-security">Minor in Computing Security</a><ul class="menu"><li class="first leaf menu-mlid-2200"><a href="/gccis/computingsecurity/minor-prerequisites">CSEC Minor Prerequisites</a></li>
+<li class="leaf menu-mlid-2201"><a href="/gccis/computingsecurity/minor-courses">CSEC Minor Courses</a></li>
+<li class="last collapsed menu-mlid-1687"><a href="/gccis/computingsecurity/academics/minors-concentrations">Other Minors and Concentrations</a></li>
+</ul></li>
+</ul></li>
+<li class="expanded menu-mlid-1273"><a href="/gccis/computingsecurity/academics/ms/overview">MS Computing Security</a><ul class="menu"><li class="first leaf menu-mlid-1711"><a href="/gccis/computingsecurity/academics/ms/overview">Overview</a></li>
+<li class="leaf menu-mlid-1703"><a href="/gccis/computingsecurity/academics/ms/course-sequence" title="">Course Sequence</a></li>
+<li class="leaf menu-mlid-1715"><a href="/gccis/computingsecurity/academics/ms/capstone">Computing Security Capstone</a></li>
+<li class="leaf menu-mlid-1688"><a href="/gccis/computingsecurity/academics/ms/certificates">Certificates</a></li>
+<li class="leaf menu-mlid-2112"><a href="/gccis/computingsecurity/academics/ms/graduate-assistantships">Graduate Assistantships</a></li>
+<li class="last leaf menu-mlid-2302"><a href="/gccis/computingsecurity/ms-forms">Graduate Forms, Handbook &amp; Capstone Guide</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1274"><a href="/gccis/computingsecurity/academics/bsms/overview">BS/MS Program</a><ul class="menu"><li class="first leaf menu-mlid-2188"><a href="/gccis/computingsecurity/academics/bsms/overview" title="">Oveview</a></li>
+<li class="leaf menu-mlid-1698"><a href="/gccis/computingsecurity/advising/bsms-faq">BS/MS FAQ</a></li>
+<li class="leaf menu-mlid-1697"><a href="/gccis/computingsecurity/advising/bsms">BS/MS Advising</a></li>
+<li class="expanded menu-mlid-2304"><a href="/gccis/computingsecurity/cybercorps">CyberCorps® Scholarship for Service</a><ul class="menu"><li class="first last leaf menu-mlid-2306"><a href="/gccis/computingsecurity/application-forms">Application Forms</a></li>
+</ul></li>
+<li class="last leaf menu-mlid-2586"><a href="/gccis/computingsecurity/gencyber">GenCyber:Cybersecurity Exploration Summer Camp</a></li>
+</ul></li>
+<li class="expanded menu-mlid-2184"><a href="/gccis/computingsecurity/academics/phd/overview">Ph.D. Program</a><ul class="menu"><li class="first last leaf menu-mlid-2192"><a href="/gccis/computingsecurity/academics/phd/overview" title="">Overview</a></li>
+</ul></li>
+<li class="expanded menu-mlid-2116"><a href="/gccis/computingsecurity/resources/overview" title="">Resources</a><ul class="menu"><li class="first leaf menu-mlid-2019"><a href="/gccis/computingsecurity/resources/overview" title="">Overview</a></li>
+<li class="leaf menu-mlid-1280"><a href="/gccis/computingsecurity/resources/co-op">Cooperative Education</a></li>
+<li class="leaf menu-mlid-1700"><a href="/gccis/computingsecurity/resources/activities-competitions">Activities/Competitions</a></li>
+<li class="leaf menu-mlid-1701"><a href="/gccis/computingsecurity/resources/clubs">Clubs</a></li>
+<li class="leaf menu-mlid-1716"><a href="/gccis/computingsecurity/resources/imagine-rit">Imagine RIT</a></li>
+<li class="leaf menu-mlid-1717"><a href="/gccis/computingsecurity/resources/college-careers">College &amp; Careers</a></li>
+<li class="leaf menu-mlid-1709"><a href="/gccis/computingsecurity/resources/facilities">Facilities</a></li>
+<li class="last leaf menu-mlid-1722"><a href="https://www.rit.edu//gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/files/images/_TA-Tutor_schedule_2161.pdf" title="">CSEC Lab Hours</a></li>
+</ul></li>
+<li class="expanded menu-mlid-2152"><a href="/gccis/computingsecurity/research/funded-projects">Research</a><ul class="menu"><li class="first expanded menu-mlid-2156"><a href="/gccis/computingsecurity/research/funded-projects" title="">Funded Projects</a><ul class="menu"><li class="first leaf menu-mlid-2198"><a href="/gccis/computingsecurity/modular-steps-towards-broadening-expertise-critical-infrastructure-protection">Modular steps towards broadening expertise in Critical Infrastructure Protection</a></li>
+<li class="leaf menu-mlid-2199"><a href="/gccis/computingsecurity/building-virtual-research-interactive-service-and-experiential-learning-modules-cyber-security">Building Virtual Research, Interactive, Service, and Experiential Learning Modules for Cyber Security Education</a></li>
+<li class="last leaf menu-mlid-2196"><a href="/gccis/computingsecurity/gamified-digital-forensics-course-modules-undergraduates-1">Gamified Digital Forensics Course Modules for Undergraduates</a></li>
+</ul></li>
+<li class="last leaf menu-mlid-2022"><a href="http://www.rit.edu/gccis/care-ia" title="">CARE-IA</a></li>
+</ul></li>
+<li class="last leaf menu-mlid-4232"><a href="/gccis/computingsecurity/people" title="">People</a></li>
+</ul></div>
+    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-12 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                
+    <!--<h1 class="title" id="page-title"></h1>-->
+                <div class="tabs clearfix"></div>        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      The requested page "/http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/files//Kyle" could not be found.    </div>
+  </div>
+</div>      </div>
+</div>  </div>
+  
+</div></section>    
+  
+      
+<footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-12 region region-footer-first" id="region-footer-first">
+  <div class="region-inner region-footer-first-inner">
+    <div class="block block-block block-9 block-block-9 odd block-without-title" id="block-block-9">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id="footer-rit"><img alt="Rochester Institute of Technology" src="/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/files/images/footer-rit.png" style="width: 89px; height: 32px;" /></div>
+<div id="footer-address"><span class="rit">Rochester Institute of Technology</span> One Lomb Memorial Drive, Rochester, NY 14623-5603</div>
+<div id="footer-copy">Copyright © Rochester Institute of Technology. <br />All Rights Reserved. <a href="http://www.rit.edu/privacy/" target="_blank">Privacy Policy</a> | <a href="http://www.rit.edu/copyright.html" target="_blank">Copyright Infringement</a></div>
+    </div>
+  </div>
+</div><div class="block block-block block-11 block-block-11 even block-without-title" id="block-block-11">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id="footer-logo"><a href="/gccis"><img alt="" src="/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/files/images/footer-logo.png" style="width: 306px; height: 86px;"></a></div>
+<div id="social-media">
+
+	<a href="https://www.facebook.com/RITGolisanoCCIS" class = "facebook"></a> 
+	
+	<a href="https://twitter.com/RITGolisanoCCIS" class = "twitter" target="_blank"></a>
+
+	<a href="http://www.rit.edu/supportgccis" class = "support" target="_blank"></a>
+	
+</div>
+
+    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></footer>  </div>      <div class="backtotop"> </div>
+</body>
+</html>
