@@ -10,6 +10,8 @@ import mechanize
 import urlparse
 import urllib
 import ssl
+import pandas
+from urlparse import urlsplit
 from lxml.html import parse
 from BeautifulSoup import BeautifulSoup, SoupStrainer
 
@@ -121,38 +123,45 @@ def MakeRequestSSL(s, url, host):
 
     return fullResponse
 
-def FullWebCrawl():
+def FullWebCrawl(booler, csv):
     maxPages = 4
     findEmails = 1
     emails = []
     urlQueue = []
     crawledUrls = []
-    print 'Enter depth: '
-    #maxPages = int(input("$> "))
-    print 'Enter host.  Example: "www.rit.edu"'
-    #host = str(input("$> "))
-    print 'Enter Url to crawl with trailing "/". Example: "http://www.rit.edu/"'
-    #url = str(input("$> "))
-    urlQueue.append("http://www.rit.edu/")
-
-    url = "http://www.rit.edu"
-    host = "www.rit.edu"
     
+    if booler:
+        print 'Enter depth: '
+        maxPages = int(input("$> "))
+        print 'Enter host.  Example: "www.rit.edu"'
+        host = str(input("$> "))
+        print 'Enter Url to crawl with trailing "/". Example: "http://www.rit.edu/"'
+        url = str(input("$> "))
+    else:
+        url = str(csv)
+        host = str(csv)
+
+    urlQueue.append(url)
     while len(urlQueue) > 0 and maxPages > 0:
-        s = Connect("www.rit.edu")
+        s = Connect(url)
         page = MakeRequest(s, urlQueue[0], host)
+        
         soup = BeautifulSoup(page)
         links = soup.findAll('a')
+        
         newEmails = set(re.findall(r"[a-z0-9\.\-+_]+@[a-z0-9\.\-+_]+\.[a-z]+", page, re.I))
         emails.append(newEmails)
-        crawledUrls.append(urlQueue[0])
+        
+        surl = urlQueue[0]
+        crawledUrls.append(surl)
         urlQueue.pop(0)
+
+        print "Now in: " + surl
         print "-------------------------------------------------------------"
 
         for tag in links:
             link = tag.get('href', None)
             if link is not None and link not in crawledUrls and url in link:
-                
                 crawledUrls.append(link)
                 urlQueue.append(link)
                 print link
@@ -161,15 +170,24 @@ def FullWebCrawl():
         s.close()
 
     print emails
+    return crawledUrls 
 
 def main():
     s = Connect('www.rit.edu')
     s2 = Connect('www.rit.edu')
-
+    directories = []
     #ScrapeCsecWeb(s)
     #ScrapeCsecImages(s2)
-    FullWebCrawl()
-    
+    #FullWebCrawl(False, None)
+
+    df = pandas.read_csv('companies.csv', names=['name', 'url'])
+    urls = df.url.tolist()
+    for url in urls:
+        url = url.replace("http://", "")
+        url = url.replace("https://", "")
+        print url
+        directories.append(FullWebCrawl(False, url))
+    print directories
 
 if __name__ == "__main__":
     main()
