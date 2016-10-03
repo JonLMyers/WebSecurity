@@ -22,13 +22,13 @@
   
   </title>  
   <style type="text/css" media="all">
-@import url("http://www.rit.edu/gccis/computingsecurity/modules/system/system.base.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/modules/system/system.menus.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/modules/system/system.messages.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/modules/system/system.theme.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/modules/system/system.base.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/modules/system/system.menus.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/modules/system/system.messages.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/modules/system/system.theme.css?oehgze");
 </style>
 <style type="text/css" media="screen">
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/libraries/shadowbox/shadowbox.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/libraries/shadowbox/shadowbox.css?oehgze");
 </style>
 <style type="text/css" media="print">
 <!--/*--><![CDATA[/*><!--*/
@@ -37,57 +37,57 @@
 /*]]>*/-->
 </style>
 <style type="text/css" media="all">
-@import url("http://www.rit.edu/gccis/computingsecurity/modules/comment/comment.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/modules/date/date_api/date.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/modules/field/theme/field.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/modules/node/node.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/modules/search/search.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/modules/user/user.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/modules/extlink/extlink.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/modules/views/css/views.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/modules/comment/comment.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/modules/date/date_api/date.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/modules/field/theme/field.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/modules/node/node.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/modules/search/search.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/modules/user/user.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/modules/extlink/extlink.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/modules/views/css/views.css?oehgze");
 </style>
 <style type="text/css" media="all">
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/modules/ctools/css/ctools.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/modules/rit_user_utils/rit_user_utils.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/modules/custom_search/custom_search.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/modules/ctools/css/ctools.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/modules/rit_user_utils/rit_user_utils.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/all/modules/custom_search/custom_search.css?oehgze");
 </style>
 <style type="text/css" media="all">
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/alpha/css/alpha-reset.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/alpha/css/alpha-mobile.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/alpha/css/alpha-alpha.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/omega/css/omega-text.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/omega/css/omega-branding.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/omega/css/omega-menu.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/omega/css/omega-forms.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/omega/css/omega-visuals.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/files/fontyourface/wysiwyg.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/files/fontyourface/font.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/files/fontyourface/local_fonts/Univers-normal-normal/stylesheet.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/css/global.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/alpha/css/alpha-reset.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/alpha/css/alpha-mobile.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/alpha/css/alpha-alpha.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/omega/css/omega-text.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/omega/css/omega-branding.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/omega/css/omega-menu.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/omega/css/omega-forms.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/omega/css/omega-visuals.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/files/fontyourface/wysiwyg.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/files/fontyourface/font.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/files/fontyourface/local_fonts/Univers-normal-normal/stylesheet.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/css/global.css?oehgze");
 </style>
 
 <!--[if (lt IE 9)&(!IEMobile)]>
 <style type="text/css" media="all">
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/css/gccis-alpha-default.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/css/gccis-alpha-default-normal.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/css/gccis-alpha-default.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/css/gccis-alpha-default-normal.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?oehgze");
 </style>
 <![endif]-->
 
 <!--[if gte IE 9]><!-->
 <style type="text/css" media="all and (max-device-width: 480px)">
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/css/gccis-alpha-default.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/css/gccis-alpha-default-narrow.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-12.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/css/gccis-alpha-default.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/css/gccis-alpha-default-narrow.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-12.css?oehgze");
 </style>
 <!--<![endif]-->
 
 <!--[if gte IE 9]><!-->
 <style type="text/css" media="all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)">
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/css/gccis-alpha-default.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/css/gccis-alpha-default-normal.css?ocbcfa");
-@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?ocbcfa");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/css/gccis-alpha-default.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/css/gccis-alpha-default-normal.css?oehgze");
+@import url("http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?oehgze");
 </style>
 <!--<![endif]-->
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -97,11 +97,11 @@ window.jQuery || document.write("<script src='/gccis/computingsecurity/sites/all
 //--><!]]>
 </script>
 <script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/misc/jquery.once.js?v=1.2"></script>
-<script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/misc/drupal.js?ocbcfa"></script>
+<script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/misc/drupal.js?oehgze"></script>
 <script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/sites/all/libraries/shadowbox/shadowbox.js?v=3.0.3"></script>
 <script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/sites/all/modules/shadowbox/shadowbox_auto.js?v=3.0.3"></script>
-<script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/sites/all/modules/delta/delta_ui.js?ocbcfa"></script>
-<script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/sites/all/modules/extlink/extlink.js?ocbcfa"></script>
+<script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/sites/all/modules/delta/delta_ui.js?oehgze"></script>
+<script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/sites/all/modules/extlink/extlink.js?oehgze"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
       // close script tag for SecKit protection
@@ -121,8 +121,8 @@ window.jQuery || document.write("<script src='/gccis/computingsecurity/sites/all
       // open script tag to avoid syntax errors
 //--><!]]>
 </script>
-<script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/sites/all/modules/custom_search/js/custom_search.js?ocbcfa"></script>
-<script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/omega/js/omega-mediaqueries.js?ocbcfa"></script>
+<script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/sites/all/modules/custom_search/js/custom_search.js?oehgze"></script>
+<script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/omega/omega/js/omega-mediaqueries.js?oehgze"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
 
@@ -130,10 +130,10 @@ window.jQuery || document.write("<script src='/gccis/computingsecurity/sites/all
         
 //--><!]]>
 </script>
-<script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/js/gccis-responsive.js?ocbcfa"></script>
+<script type="text/javascript" src="http://www.rit.edu/gccis/computingsecurity/sites/rit.edu.gccis.computingsecurity/themes/gccis/js/gccis-responsive.js?oehgze"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/gccis\/computingsecurity\/","pathPrefix":"","ajaxPageState":{"theme":"gccis","theme_token":"aHIFedcXNhHIQoaCmHqbeyw9hbhFhP9wZCNdKUrpHn0","js":{"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/shadowbox\/shadowbox.js":1,"sites\/all\/modules\/shadowbox\/shadowbox_auto.js":1,"sites\/all\/modules\/delta\/delta_ui.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"1":1,"sites\/all\/modules\/custom_search\/js\/custom_search.js":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1,"2":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/js\/gccis-responsive.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/shadowbox\/shadowbox.css":1,"0":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/rit_user_utils\/rit_user_utils.css":1,"sites\/all\/modules\/custom_search\/custom_search.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/rit.edu.gccis.computingsecurity\/files\/fontyourface\/wysiwyg.css":1,"sites\/rit.edu.gccis.computingsecurity\/files\/fontyourface\/font.css":1,"public:\/\/fontyourface\/local_fonts\/Univers-normal-normal\/stylesheet.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/css\/global.css":1,"ie::normal::sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/css\/gccis-alpha-default.css":1,"ie::normal::sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/css\/gccis-alpha-default-normal.css":1,"ie::normal::sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"narrow::sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/css\/gccis-alpha-default.css":1,"narrow::sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/css\/gccis-alpha-default-narrow.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/css\/gccis-alpha-default.css":1,"normal::sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/css\/gccis-alpha-default-normal.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"shadowbox":{"animate":true,"animateFade":true,"animSequence":"wh","auto_enable_all_images":0,"auto_gallery":0,"autoplayMovies":true,"continuous":false,"counterLimit":10,"counterType":"default","displayCounter":true,"displayNav":true,"enableKeys":true,"fadeDuration":0.35,"handleOversize":"resize","handleUnsupported":"link","initialHeight":160,"initialWidth":320,"language":"en","modal":false,"overlayColor":"#000","overlayOpacity":0.8,"resizeDuration":0.55,"showMovieControls":true,"slideshowDelay":0,"viewportPadding":20,"useSizzle":false},"custom_search":{"form_target":"_self","solr":0},"urlIsAjaxTrusted":{"\/http:\/\/www.rit.edu\/gccis\/computingsecurity\/sites\/rit.edu.gccis.computingsecurity\/files\/\/Sarah":true},"extlink":{"extTarget":0,"extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal"],"queries":{"narrow":"all and (max-device-width: 480px)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)"}}}});
+jQuery.extend(Drupal.settings, {"basePath":"\/gccis\/computingsecurity\/","pathPrefix":"","ajaxPageState":{"theme":"gccis","theme_token":"E6vzjazAHKnttQYuAJ0P2bjmx9Yh3Xg8UoFSm-jCrZA","js":{"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/shadowbox\/shadowbox.js":1,"sites\/all\/modules\/shadowbox\/shadowbox_auto.js":1,"sites\/all\/modules\/delta\/delta_ui.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"1":1,"sites\/all\/modules\/custom_search\/js\/custom_search.js":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1,"2":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/js\/gccis-responsive.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/shadowbox\/shadowbox.css":1,"0":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/rit_user_utils\/rit_user_utils.css":1,"sites\/all\/modules\/custom_search\/custom_search.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/rit.edu.gccis.computingsecurity\/files\/fontyourface\/wysiwyg.css":1,"sites\/rit.edu.gccis.computingsecurity\/files\/fontyourface\/font.css":1,"public:\/\/fontyourface\/local_fonts\/Univers-normal-normal\/stylesheet.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/css\/global.css":1,"ie::normal::sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/css\/gccis-alpha-default.css":1,"ie::normal::sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/css\/gccis-alpha-default-normal.css":1,"ie::normal::sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"narrow::sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/css\/gccis-alpha-default.css":1,"narrow::sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/css\/gccis-alpha-default-narrow.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/css\/gccis-alpha-default.css":1,"normal::sites\/rit.edu.gccis.computingsecurity\/themes\/gccis\/css\/gccis-alpha-default-normal.css":1,"sites\/rit.edu.gccis.computingsecurity\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"shadowbox":{"animate":true,"animateFade":true,"animSequence":"wh","auto_enable_all_images":0,"auto_gallery":0,"autoplayMovies":true,"continuous":false,"counterLimit":10,"counterType":"default","displayCounter":true,"displayNav":true,"enableKeys":true,"fadeDuration":0.35,"handleOversize":"resize","handleUnsupported":"link","initialHeight":160,"initialWidth":320,"language":"en","modal":false,"overlayColor":"#000","overlayOpacity":0.8,"resizeDuration":0.55,"showMovieControls":true,"slideshowDelay":0,"viewportPadding":20,"useSizzle":false},"custom_search":{"form_target":"_self","solr":0},"urlIsAjaxTrusted":{"\/http:\/\/www.rit.edu\/gccis\/computingsecurity\/sites\/rit.edu.gccis.computingsecurity\/files\/\/Sarah":true},"extlink":{"extTarget":0,"extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal"],"queries":{"narrow":"all and (max-device-width: 480px)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)"}}}});
 //--><!]]>
 </script>
   <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -238,7 +238,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/gccis\/computingsecurity\/","pathP
     <div class="form-item form-type-textfield form-item-search-block-form">
   <input title="Enter the terms you wish to search for." class="custom-search-box form-text" placeholder="Search this site" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-m_os09JD6_RhFYNhj7cue7xODivPbxYgOwuOTIY2gGo" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-RPhxX2e-bz4e_1dYZEJNvBn7tQeG0VfoDCJw4I-5d7A" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>
