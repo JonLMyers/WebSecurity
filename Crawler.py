@@ -18,8 +18,17 @@ from BeautifulSoup import BeautifulSoup, SoupStrainer
 
 def Connect(url, port):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.connect((url, port))
-    return s
+    s.settimeout(10)
+    if port == 443:
+        sock = ssl.wrap_socket(s)
+        print "Connecting to: {}:{}".format(url, port)
+        sock.connect((url, port))
+        sock.settimeout(None)
+        return sock
+    else:
+        s.connect((url, port))
+        s.settimeout(None)
+        return s
 
 def ScrapeCsecWeb(s):
     request = "GET /programs/computing-security-bs HTTP/1.1\n"
@@ -97,9 +106,10 @@ def ScrapeCsecImages(s):
 
 def MakeRequest(s, url, host):
     request = "GET " + url + " HTTP/1.1\n"
+    keep = "Connection: Close\n"
     requestHost = "Host: " + host + "\r\n\r\n"    
     fullResponse = ''
-    s.send(request + requestHost)
+    s.send(request + keep + requestHost)
     while True:
         response = s.recv(2048)
         if response == '':
@@ -112,10 +122,10 @@ def MakeRequestSSL(s, url, host):
     request = "GET " + url + " HTTP/1.1\n"
     requestHost = "Host: " + host + "\r\n\r\n"    
     fullResponse = ''
-    ws = socket.ssl(s)
-    ws.send(request + requestHost)
+    keep = 'Connection: close\n'
+    s.send(request + keep + requestHost)
     while True:
-        response = ws.recv(2048)
+        response = s.recv(2048)
         if response == '':
             break 
         fullResponse = fullResponse + response
@@ -125,28 +135,39 @@ def MakeRequestSSL(s, url, host):
 def HandleRequest(url, host):
     link = ''
     if url.find("https://") is not -1:
-        s = Connect(host, 443)
-        page = MakeRequestSSL(s, url, host)
-        s.close()
-        return page
+        try:
+            s = Connect(host, 443)
+            page = MakeRequestSSL(s, url, host)
+            s.close()
+            return page
+        except ValueError:
+            return ValueError
     else:
+        print host
         s = Connect(host, 80)
         page = MakeRequest(s, url, host)
-        soup = BeautifulSoup(page)
-        '''try:
-            if soup.title.string == "301 Moved Permanently":
-                links = soup.findAll('a')
-                for tag in links:
-                    link = tag.get('href', None)
-                s.close()
-                page = HandleRequest(link, host)
-        except ValueError:
-            print "301 check failed."'''
+        print len(page)
+        
+        print "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+        if len(page) < 1000:
+            headers, body = page.split("\r\n\r\n")
+            print headers
+            match = re.findall(r'HTTP/1\.(?:0|1) 301[^\r\n]+', headers)
+            if len(match) > 0:
+                locationMatch = re.findall(r"Location: ([^\r\n]+)", headers)
+                if len(locationMatch) > 0:
+                    link = locationMatch[0]
+                    print link 
+                    host = link.replace("http://", "").replace("https://", "").split("/", 1)[0]
+                    page = HandleRequest(link, host)
+                else:
+                    raise ValueError("error finding location header")
+
         s.close()
         return page
 
 def FullWebCrawl(booler, csv):
-    maxPages = 4
+    maxPages = 100
     findEmails = 1
     emails = set()
     urlQueue = []
@@ -202,7 +223,7 @@ def main():
     #ScrapeCsecImages(s2)
     FullWebCrawl(True, None)
 
-    """df = pandas.read_csv('companies.csv', names=['name', 'url'])
+    '''df = pandas.read_csv('companies.csv', names=['name', 'url'])
     urls = df.url.tolist()
     for url in urls:
         url = url.replace("http://", "")
@@ -210,8 +231,8 @@ def main():
         url = url.replace("/market/pages/index.aspx", "")
         url = url.replace("/pages/home.aspx", "")
         url = url.replace("/", "")
-        directories.append(FullWebCrawl(False, url))
-    print directories"""
+        directories.append(FullWebCrawl(False, url))'''
+    print directories
 
 if __name__ == "__main__":
     main()
