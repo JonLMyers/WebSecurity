@@ -1,0 +1,11 @@
+Was able to increase vote counter by using BURP to delete the cookie and referer.  Please use an auth system.
+I was able to access a page I should not be able to access via /edit or /new (Should return a 404.)
+Investigate potential XSS with '';!--"<XSS>=&{()}
+No ssl in production.rb
+Weak etag
+
+Current attack vectors: CSRF token, search bar, votes.
+Current thoughts: CSRF token is random on each request and is stored in the html which is interesting.  search bar sends params via get request.
+This means it is most likely inserted into a query directly
+
+investigate csrf attack by get. Research http://phrack.org/issues/69/12.html
